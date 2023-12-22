@@ -1,0 +1,65 @@
+header {
+    color: white;
+    width: 101%;
+    height: 51%;
+    position: absolute;
+    margin-left: -0.5%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    margin-top: -0.5%;
+    border: solid 1px red;
+}
+
+.card {
+    margin-left: 33%;
+    width: 600px;
+    height: 450px;
+}
+
+main {
+    color: white;
+    position: absolute;
+    width: 101%;
+    height: 100%;
+    margin-left: -0.5%;
+    margin-top: 30%;
+}
+
+p {
+    padding-left: 42%; 
+    font-size:  140%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    padding-left: 33%;
+     padding-top: 0%;
+      padding-bottom: 2%;
+       font-size: 100px;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.ex1 {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 90%;
+    color: whitesmoke;
+    text-shadow: 0 0 10px white;
+    padding-left: 1%;
+    transition: all 0.8s ease 0s;
+    }
+        
+.ex1:hover {
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 10px rgb(68, 0, 0);
+    }
+
+footer {
+    color: white;
+    width: 101%;
+    height: 25%;
+    margin-top: 26.3%;
+    margin-left: -0.5%;
+    margin-bottom: 5%;
+    position: absolute;
+}

@@ -1,0 +1,152 @@
+header {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+}
+
+.logo {
+    width: 400px;
+    height: 400px;
+    left: 40%;
+    top: 5%;
+    position: absolute;
+    transition: all 2s ease-in-out;
+    transform-origin: 50% 50%;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+}
+
+main {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin-top: 51%;
+}
+
+.underlogo {
+    width: 812px;
+    height: 424.8px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 28.5%;
+}
+
+.mainUl {
+    display: grid;
+    list-style-type: none;
+    position: absolute;
+    color: white;
+    text-size-adjust: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    text-shadow: gray 1px 0 10px;
+}
+.left {
+    width: 768px;
+    height: 450px;
+    border: solid 2px white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.left img {
+    width: 768px;
+    height: 450px;
+}
+
+.left p {
+    padding-top: 2%;
+    width: 768px;
+    height: 450px;
+}
+.right {
+    width: 768px;
+    height: 450px;
+    margin-left: 127.5%;
+    border: solid 2px white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.right img {  
+    width: 768px;
+    height: 450px;
+}
+
+.right p {  
+    width: 768px;
+    height: 450px;
+    padding-top: 10%;
+}
+
+#AfterUl {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 80%
+}
+
+#AfterUl h6 {
+    color:white;
+    margin-top: 53%;
+    margin-left: 43%;
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#AfterUl a {
+    font-size: 100px;
+    margin-left: 38.5%;
+    background-color: rgb(19, 19, 19);
+    border: solid 10px white;
+    border-radius: 40px;
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 30px;
+    transition: all 0.4s ease 0s;
+}
+
+#AfterUl a:hover {
+    color: white;
+    text-shadow: 0 0 20px white;
+}
+
+.afterUl {
+    position: absolute;
+    margin-left: 10%;
+    width: 80%;
+    height: 100%;
+}
+
+footer {
+    width: 102%;
+    height: 20%;
+    text-align: center;
+    position: absolute;
+    margin-top: 200%;
+    padding: 2% 0;
+    color: white;
+    border: solid 1px white;
+    margin-left: -1%;
+}
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 90%;
+    color: grey;
+    transition: all 0.8s ease 0s;
+    padding-left: 1%;
+    }
+
+.link:hover {
+    color: white;
+    text-shadow: 0 0 20px white;
+}
+
